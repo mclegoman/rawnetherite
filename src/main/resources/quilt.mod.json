@@ -30,6 +30,10 @@
 			{
 				"id": "fabric-item-group-api-v1",
 				"versions": "*"
+			},
+			{
+				"id": "fabric-loot-api-v3",
+				"versions": "*"
 			}
 		]
 	}

@@ -8,15 +8,15 @@
 package com.mclegoman.rawnetherite.common.registry;
 
 import com.mclegoman.rawnetherite.common.block.Blocks;
-import com.mclegoman.rawnetherite.common.item.ItemGroups;
-import com.mclegoman.rawnetherite.common.item.Items;
-import com.mclegoman.rawnetherite.common.loot.LootTables;
+import com.mclegoman.rawnetherite.common.item.ItemGroupRegistry;
+import com.mclegoman.rawnetherite.common.item.ItemRegistry;
+import com.mclegoman.rawnetherite.common.loot.LootTableRegistry;
 
 public class Registries {
 	public static void init() {
 		Blocks.init();
-		Items.init();
-		LootTables.init();
-		ItemGroups.init();
+		ItemRegistry.init();
+		LootTableRegistry.init();
+		ItemGroupRegistry.init();
 	}
 }

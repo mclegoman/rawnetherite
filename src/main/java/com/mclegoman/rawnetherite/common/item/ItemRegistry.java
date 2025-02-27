@@ -15,7 +15,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.util.Identifier;
 
-public class Items {
+public class ItemRegistry {
 	public static final Item rawNetheriteScrap;
 	public static final Item rawNetheriteBlock;
 	public static void init() {
