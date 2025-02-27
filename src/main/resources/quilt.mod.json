@@ -1,40 +1,36 @@
 {
-    "schema_version": 1,
-    "quilt_loader": {
-        "group": "${group}",
-        "id": "rawnetherite",
-        "version": "${version}",
-        "metadata": {
-            "name": "Raw Netherite",
-            "description": "Modifies the process of obtaining Netherite",
-            "contributors": {
-                "MCLegoMan": "Owner"
-            },
-            "contact": {
-							"homepage": "https://mclegoman.com/rawnetherite",
-							"sources": "https://github.com/MCLegoMan/rawnetherite",
-							"issues": "https://github.com/MCLegoMan/rawnetherite/issues"
-						},
-            "icon": "assets/rawnetherite/icon.png",
-            "license": "LGPL-3.0-or-later"
-        },
-        "intermediate_mappings": "net.fabricmc:intermediary",
-        "entrypoints": {
-            "init": "com.mclegoman.rawnetherite.common.RawNetherite"
-        },
-        "depends": [
-            {
-                "id": "quilt_loader",
-                "versions": "*"
-            },
-            {
-                "id": "quilted_fabric_api",
-                "versions": "*"
-            },
-            {
-                "id": "minecraft",
-                "versions": "~1.21"
-            }
-        ]
-    }
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "${group}",
+		"id": "rawnetherite",
+		"version": "${version}",
+		"metadata": {
+			"name": "Raw Netherite",
+			"description": "Modifies the process of obtaining Netherite",
+			"contributors": {
+				"dannytaylor": "Owner"
+			},
+			"contact": {
+				"sources": "https://github.com/MCLegoMan/rawnetherite",
+				"issues": "https://github.com/MCLegoMan/rawnetherite/issues"
+			},
+			"icon": "assets/rawnetherite/icon.png",
+			"license": "LGPL-3.0-or-later"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": "*"
+			},
+			{
+				"id": "minecraft",
+				"versions": "~1.21"
+			},
+			{
+				"id": "fabric-item-group-api-v1",
+				"versions": "*"
+			}
+		]
+	}
 }

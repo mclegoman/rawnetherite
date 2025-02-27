@@ -8,12 +8,9 @@
 package com.mclegoman.rawnetherite.common;
 
 import com.mclegoman.rawnetherite.common.registry.Registries;
-import org.quiltmc.loader.api.ModContainer;
-import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 
-public class RawNetherite implements ModInitializer {
-    @Override
-    public void onInitialize(ModContainer mod) {
+public class RawNetherite {
+    public static void init() {
 	    Registries.init();
     }
 }
